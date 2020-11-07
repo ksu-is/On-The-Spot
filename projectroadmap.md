@@ -1,4 +1,4 @@
-# Project Roadmap - **On The Spot**
+# Project Roadmap - On The Spot
 # Sprint 1:
 - [x] Get project approved
 - [x] List it on Teams Project Spreadsheet
