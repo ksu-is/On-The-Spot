@@ -1,6 +1,3 @@
-# RLBot-Sturgis
-Python rocket league bot made to work using the RLBot framework.
+# On The Spot Quiz Game
 
-RLBot framework must be installed, along with rocket league, in order to use this bot. RLBot can be found at (https://rlbot.org/)  
-
-Sturgis, named after the KSU owl, has a mission to beat Invisibot and avenge Air Bud. 
+On the Spot is a trivia quiz game where users compete in a series of 9 rounds, answering questions and racking up points. Players choose from a randomized selection of categories each turn, or can choose a question "On the Spot" for double the points. 
