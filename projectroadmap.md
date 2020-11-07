@@ -4,7 +4,7 @@
 - [x] List it on Teams Project Spreadsheet
 - [x] Join class GitHub (ksu-is)
 - [x] Edit and make changes to readme.md
-- [ ] Related Python code - https://github.com/RLBot/RLBotPythonExample 
+- [ ] Related Python code - 
 
 # Sprint 2:
 - [ ] Making small updates
