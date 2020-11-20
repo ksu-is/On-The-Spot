@@ -4,12 +4,12 @@
 - [x] List it on Teams Project Spreadsheet
 - [x] Join class GitHub (ksu-is)
 - [x] Edit and make changes to readme.md
-- [ ] Related Python code - https://github.com/lujoga/cluequiz 
+- [x] Related Python code - https://github.com/lujoga/cluequiz 
 
 # Sprint 2:
 - [ ] Making small updates
-- [ ] Committed at least 6 code changes
-- [ ] Include comment explaining change
+- [ ] Committed at least 6 code changes per person 
+- [ ] Include comment explaining each change
 
 # Sprint 3:
 - [ ] Continue coding, refining, and testing code
