@@ -4,7 +4,7 @@
 - [x] List it on Teams Project Spreadsheet
 - [x] Join class GitHub (ksu-is)
 - [x] Edit and make changes to readme.md
-- [x] Related Python code - https://github.com/lujoga/cluequiz 
+- [x] Related Python code - https://github.com/lujoga/cluequiz and  https://github.com/railto/python_quiz
 
 # Sprint 2:
 - [ ] Making small updates
