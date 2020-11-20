@@ -8,7 +8,7 @@
 
 # Sprint 2:
 - [ ] Making small updates
-- [ ] Committed at least 6 code changes per person
+- [ ] Committed at least 6 code changes per person 
 - [ ] Include comment explaining each change
 
 # Sprint 3:
