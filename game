@@ -4,7 +4,7 @@ print('Welcome to On The Spot! Please have fun/')
 response = input("Press "R" if ready to take the quiz or "Q" to quiz\n")
 
 if response.lower() == 'R':
-    import Trivia-API
+    import pytrivia 
 elif response.lower() == 'Q':
     return "Thank you for playing"
 else:
