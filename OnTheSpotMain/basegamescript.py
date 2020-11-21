@@ -1,3 +1,8 @@
+#TODO: 
+##- [ ] Remove/Replace preset questions and their variables/order within the code
+##- [ ] Address proper game intro
+##- [ ] Revise/Edit parts from eliosfederico 
+
 ##### THIS IS THE QUIZGAME ########################
 
 
@@ -179,3 +184,4 @@ def game_control():
 
 
 game_control()
+
