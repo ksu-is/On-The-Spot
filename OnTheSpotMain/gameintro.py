@@ -1,5 +1,6 @@
 print('Welcome to On The Spot! Please have fun/')
-# begining the game. asking if wanting to start then importing questions
+# begining the game. asking if wanting to start then importing questions. We want to have a proper game start. 
+# need to refine and perfect intro 
 #TODO: 
 #[ ] add structure to introduction
 #[ ] blueprint for opening sequence and game flow
