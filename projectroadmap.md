@@ -7,9 +7,9 @@
 - [x] Related Python code - https://github.com/lujoga/cluequiz and  https://github.com/railto/python_quiz
 
 # Sprint 2:
-- [ ] Making small updates
+- [x] Making small updates
 - [ ] Committed at least 6 code changes per person
-- [ ] Include comment explaining each change
+- [x] Include comment explaining each change
 
 # Sprint 3:
 - [ ] Need proper blueprint for project design
