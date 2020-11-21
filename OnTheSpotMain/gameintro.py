@@ -1,4 +1,4 @@
-print('Welcome to On The Spot! Please have fun/')
+print('Welcome to On The Spot! Please have fun\n')
 # begining the game. asking if wanting to start then importing questions
 
 response = input("Press "R" if ready to take the quiz or 'Q' to quiz\n")
@@ -8,4 +8,4 @@ if response.lower() == 'R':
 elif response.lower() == 'Q':
     return "Thank you for playing"
 else:
-    print "You did not choose a valid option"
+    print("You did not choose a valid option")
