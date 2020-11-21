@@ -1,5 +1,6 @@
 #TODO: 
 ##- [ ] Remove/Replace preset questions and their variables/order within the code
+##- [ ] Add way to import questions and have them be read properly 
 ##- [ ] Address proper game intro
 ##- [ ] Revise/Edit parts from eliosfederico 
 
@@ -74,10 +75,10 @@ def game_reset():
 
 def game_intro():
     '''
-    Welcome the player and ask him for his name as long as he thinks is correct.
+    Welcome the player and ask for his or her name as long as he thinks is correct.
     '''
 
-    print("\n       ------ !! Welcome to the QuizGame !! ------\n")
+    print("\n       ------ !! Welcome to the On The Spot !! ------\n")
     
     global name
 
@@ -86,7 +87,7 @@ def game_intro():
         print("Your name is", name)
         correct = input("Is that correct? ")
         if yes.count(correct) == True: ##"Yes" or ok == "yes" or ok == "YES":
-            print("Good, let's go on!\n")
+            print("Good, let's continue on!\n")
         else:
             print("Mh? Try again and confirm with Yes!")
             name = None
