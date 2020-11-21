@@ -12,7 +12,10 @@
 - [ ] Include comment explaining each change
 
 # Sprint 3:
+- [ ] Need proper blueprint for project design
 - [ ] Continue coding, refining, and testing code
+    -[ ] Possible GUI for player experience?
+    -[ ] Improve upon game flow
 - [ ] Create one PowerPoint slide for project introduction
 - [ ] Upload PowerPoint slide to D2L and GitHub
 
