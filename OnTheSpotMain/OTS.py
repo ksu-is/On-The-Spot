@@ -23,7 +23,7 @@ def playerSetup():
     """  
     Welcome the player, and ask for names to initialize player profiles
     """
-    print("\n       ------ !! Get Started !! ------\n")
+    print("\n       ------ !! Let's Get Started !! ------\n")
     
     while True:
         player_count = input("How many players will be participating? (2-4): ")
