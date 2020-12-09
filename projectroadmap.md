@@ -16,8 +16,8 @@
 - [ ] Continue coding, refining, and testing code
     - [ ] Possible GUI for player experience?
     - [ ] Improve upon game flow
-- [ ] Create one PowerPoint slide for project introduction
-- [ ] Upload PowerPoint slide to D2L and GitHub
+- [x] Create one PowerPoint slide for project introduction
+- [x] Upload PowerPoint slide to D2L and GitHub
 
 # Final Presentation:
 - [ ] Schedule and record in Teams Project channel
