@@ -10,6 +10,9 @@
  #************************************************# DELETE ABOVE
 
 
+players = {}
+player_count = 0
+
 def gameReset():
     '''
     Reset all variables of the whole game for a new play
@@ -19,7 +22,7 @@ def gameReset():
  
 
 def playerSetup():
-    
+
     """  
     Welcome the player, and ask for names to initialize player profiles
     """
@@ -46,14 +49,30 @@ def playerSetup():
 
 def gameRules():
     print("\n       ------ !! Welcome to On The Spot !! ------\n")
-    print("")
+    print('The rules are simple. There are 9 rounds of trivia.\n')
+    print('Each round will have 3 randomized catogories to choose from. Players will each choose their difficulty and answer the question.\n')
+    print('For every 2 questions in a row correct, players will be given the opportunity for an "On The Spot" question.\n')
+    print('The player with the most points wins.')
+    
+    player_status = ""
+    while True:
+        player_status = input("\nAre you ready to begin? (y/n): ")
+        if player_status.lower() == 'y':
+            print("Let's begin!")
+            return
+        elif player_status.lower() == 'n':
+            print('Exiting game. Thank you.')
+            exit()
+        else:
+            print("Invalid Input.")
 
 
 def game_control():
     '''
     Control the whole game with the single steps.
     '''
-    game_reset()
+    gameReset()
     playerSetup()
+    gameRules()
 
 game_control()
