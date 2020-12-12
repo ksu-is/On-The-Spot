@@ -1,25 +1,49 @@
-""" print('Welcome to On The Spot! Please have fun/')
-# begining the game. asking if wanting to start then importing questions. We want to have a proper game start. 
-# need to refine and perfect intro 
-#TODO: 
-#[X] add structure to introduction
-#[ ] blueprint for opening sequence and game flow
-#[ ] begin adding variables and references, crossing game flow from imported questions.py and basegamescript.py
 
-"""
- #************************************************# DELETE ABOVE
+import html
+import json
+import urllib.request
 
 
-players = {}
-player_count = 0
+def generate_answers(quest, QuestionType):
+    answers = []
+    if QuestionType == "multiple":
+        answers = [
+            quest["correct_answer"],
+            quest["incorrect_answers"][0],
+            quest["incorrect_answers"][1],
+            quest["incorrect_answers"][2]
+        ]
+        answers.sort()
+    elif QuestionType == "boolean":
+        answers = ["True", "False"]
+    else:
+        print("Unrecognized question type: " + QuestionType)
+    return answers
 
-def gameReset():
-    '''
-    Reset all variables of the whole game for a new play
-    '''
-    players = {}
-    player_count = 0
- 
+
+def generate_questions(n, TOKEN, TOPIC, DIFFICULTY):
+    QuestionURL = "https://opentdb.com/api.php?amount=" + \
+        str(n) + "&token=" + TOKEN + TOPIC + DIFFICULTY
+
+    with urllib.request.urlopen(QuestionURL) as url:
+        data = json.loads(url.read().decode())
+    return data
+
+
+n = 10
+TokenURL = "https://opentdb.com/api_token.php?command=request"
+
+with urllib.request.urlopen(TokenURL) as url:
+    data = json.loads(url.read().decode())
+    TOKEN = data["token"]
+
+TopicURL = "https://opentdb.com/api_category.php"
+
+with urllib.request.urlopen(TopicURL) as url:
+    data = json.loads(url.read().decode())
+    cat = data["trivia_categories"]
+
+
 
 def playerSetup():
 
