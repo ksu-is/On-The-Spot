@@ -13,12 +13,12 @@
 
 # Sprint 3:
 - [x] Need proper blueprint for project design
-- [ ] Continue coding, refining, and testing code
+- [x] Continue coding, refining, and testing code
     - [ ] Possible GUI for player experience?
     - [ ] Improve upon game flow
 - [x] Create one PowerPoint slide for project introduction
 - [x] Upload PowerPoint slide to D2L and GitHub
 
 # Final Presentation:
-- [ ] Schedule and record in Teams Project channel
+- [x] Schedule and record in Teams Project channel
 - [ ] Post screenshot of presentation and the link to D2L
