@@ -1,8 +1,0 @@
-- Disallow empty input/strings
-- Define an input to quit at anytime and print results
-- POSSIBLE: Allow user to set game length at beginning
-    - otherwise, 9 rounds told to user at beginning with intro rules
-- Stick with numerical input only
-- Attach point values to options
-- Limit players (up to 4)
-- If players finish with equal points, on the spot until winner
